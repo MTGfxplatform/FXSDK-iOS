@@ -1,6 +1,6 @@
-# FXSDK-UnityPlugin
+# FXSDK-iOS
 
-Thanks for taking a look at FXSDK! 
+Thanks for taking a look at FXSDK-iOS! 
 
 Sign up for an account at [http://detailroi.mintegral.com](http://detailroi.mintegral.com).
 
