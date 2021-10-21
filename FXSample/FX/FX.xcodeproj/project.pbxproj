@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F24969B2700814F004B200F /* FX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2496912700814F004B200F /* FX.framework */; };
+		7F2496A02700814F004B200F /* FXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24969F2700814F004B200F /* FXTests.m */; };
+		7F2496A22700814F004B200F /* FX.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496942700814F004B200F /* FX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F2496AD270081E3004B200F /* FXSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496AB270081E3004B200F /* FXSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F2496AE270081E3004B200F /* FXSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496AC270081E3004B200F /* FXSDK.m */; };
+		7F2496E3270310F6004B200F /* FXDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496D0270310F6004B200F /* FXDatabaseManager.h */; };
+		7F2496E4270310F6004B200F /* FXEventDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D1270310F6004B200F /* FXEventDB.m */; };
+		7F2496E5270310F6004B200F /* FXEventDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D1270310F6004B200F /* FXEventDB.m */; };
+		7F2496E6270310F6004B200F /* FXSQLAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D2270310F6004B200F /* FXSQLAdaptor.m */; };
+		7F2496E7270310F6004B200F /* FXSQLAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D2270310F6004B200F /* FXSQLAdaptor.m */; };
+		7F2496E8270310F6004B200F /* FXWhereModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D3270310F6004B200F /* FXWhereModel.m */; };
+		7F2496E9270310F6004B200F /* FXWhereModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496D3270310F6004B200F /* FXWhereModel.m */; };
+		7F2496F7270310F6004B200F /* FXDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496DE270310F6004B200F /* FXDatabaseHelper.h */; };
+		7F2496F8270310F6004B200F /* FXDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496DF270310F6004B200F /* FXDatabaseManager.m */; };
+		7F2496F9270310F6004B200F /* FXDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2496DF270310F6004B200F /* FXDatabaseManager.m */; };
+		7F2496FA270310F6004B200F /* FXEventDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496E0270310F6004B200F /* FXEventDB.h */; };
+		7F2496FB270310F6004B200F /* FXSQLAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496E1270310F6004B200F /* FXSQLAdaptor.h */; };
+		7F2496FC270310F6004B200F /* FXWhereModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496E2270310F6004B200F /* FXWhereModel.h */; };
+		7F24970927031465004B200F /* FXSDKFMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496FE27031464004B200F /* FXSDKFMDatabaseAdditions.h */; };
+		7F24970A27031465004B200F /* FXSDKFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2496FF27031464004B200F /* FXSDKFMDatabase.h */; };
+		7F24970B27031465004B200F /* FXSDKFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970027031464004B200F /* FXSDKFMResultSet.m */; };
+		7F24970C27031465004B200F /* FXSDKFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970027031464004B200F /* FXSDKFMResultSet.m */; };
+		7F24970D27031465004B200F /* FXSDKFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F24970127031464004B200F /* FXSDKFMDB.h */; };
+		7F24970E27031465004B200F /* FXSDKFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970227031464004B200F /* FXSDKFMDatabasePool.m */; };
+		7F24970F27031465004B200F /* FXSDKFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970227031464004B200F /* FXSDKFMDatabasePool.m */; };
+		7F24971027031465004B200F /* FXSDKFMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F24970327031464004B200F /* FXSDKFMDatabaseQueue.h */; };
+		7F24971127031465004B200F /* FXSDKFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970427031464004B200F /* FXSDKFMDatabaseAdditions.m */; };
+		7F24971227031465004B200F /* FXSDKFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970427031464004B200F /* FXSDKFMDatabaseAdditions.m */; };
+		7F24971327031465004B200F /* FXSDKFMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F24970527031465004B200F /* FXSDKFMResultSet.h */; };
+		7F24971427031465004B200F /* FXSDKFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970627031465004B200F /* FXSDKFMDatabase.m */; };
+		7F24971527031465004B200F /* FXSDKFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970627031465004B200F /* FXSDKFMDatabase.m */; };
+		7F24971627031465004B200F /* FXSDKFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970727031465004B200F /* FXSDKFMDatabaseQueue.m */; };
+		7F24971727031465004B200F /* FXSDKFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24970727031465004B200F /* FXSDKFMDatabaseQueue.m */; };
+		7F24971827031465004B200F /* FXSDKFMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F24970827031465004B200F /* FXSDKFMDatabasePool.h */; };
+		7FF683C0271144E0006F6E09 /* FXAPIEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF683BE271144E0006F6E09 /* FXAPIEndpoints.h */; };
+		7FF683C1271144E0006F6E09 /* FXAPIEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF683BF271144E0006F6E09 /* FXAPIEndpoints.m */; };
+		7FFF3808270607390022B7D7 /* FXURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FB270607390022B7D7 /* FXURLRequest.m */; };
+		7FFF3809270607390022B7D7 /* FXURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FB270607390022B7D7 /* FXURLRequest.m */; };
+		7FFF380A270607390022B7D7 /* FXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FC270607390022B7D7 /* FXURL.m */; };
+		7FFF380B270607390022B7D7 /* FXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FC270607390022B7D7 /* FXURL.m */; };
+		7FFF380C270607390022B7D7 /* FXHTTPNetworkTaskData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FD270607390022B7D7 /* FXHTTPNetworkTaskData.m */; };
+		7FFF380D270607390022B7D7 /* FXHTTPNetworkTaskData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF37FD270607390022B7D7 /* FXHTTPNetworkTaskData.m */; };
+		7FFF380E270607390022B7D7 /* FXHTTPNetworkSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF37FE270607390022B7D7 /* FXHTTPNetworkSession.h */; };
+		7FFF3810270607390022B7D7 /* FXURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3800270607390022B7D7 /* FXURLRequest.h */; };
+		7FFF3811270607390022B7D7 /* FXHTTPNetworkTaskData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3801270607390022B7D7 /* FXHTTPNetworkTaskData.h */; };
+		7FFF3812270607390022B7D7 /* FXURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3802270607390022B7D7 /* FXURL.h */; };
+		7FFF3813270607390022B7D7 /* FXHTTPNetworkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3803270607390022B7D7 /* FXHTTPNetworkSession.m */; };
+		7FFF3814270607390022B7D7 /* FXHTTPNetworkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3803270607390022B7D7 /* FXHTTPNetworkSession.m */; };
+		7FFF382B270AE8A70022B7D7 /* FXRequestParameterBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3819270AE8A70022B7D7 /* FXRequestParameterBuilder.h */; };
+		7FFF382C270AE8A70022B7D7 /* FXRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF381A270AE8A70022B7D7 /* FXRequestManager.h */; };
+		7FFF382D270AE8A70022B7D7 /* FXRequestParameterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381B270AE8A70022B7D7 /* FXRequestParameterBuilder.m */; };
+		7FFF382E270AE8A70022B7D7 /* FXRequestParameterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381B270AE8A70022B7D7 /* FXRequestParameterBuilder.m */; };
+		7FFF382F270AE8A70022B7D7 /* FXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381C270AE8A70022B7D7 /* FXRequestManager.m */; };
+		7FFF3830270AE8A70022B7D7 /* FXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381C270AE8A70022B7D7 /* FXRequestManager.m */; };
+		7FFF3831270AE8A70022B7D7 /* FXDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381E270AE8A70022B7D7 /* FXDeviceInfo.m */; };
+		7FFF3832270AE8A70022B7D7 /* FXDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF381E270AE8A70022B7D7 /* FXDeviceInfo.m */; };
+		7FFF3833270AE8A70022B7D7 /* FXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF381F270AE8A70022B7D7 /* FXUtil.h */; };
+		7FFF3834270AE8A70022B7D7 /* FXGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3820270AE8A70022B7D7 /* FXGlobal.m */; };
+		7FFF3835270AE8A70022B7D7 /* FXGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3820270AE8A70022B7D7 /* FXGlobal.m */; };
+		7FFF3836270AE8A70022B7D7 /* FXBaseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3821270AE8A70022B7D7 /* FXBaseConstants.m */; };
+		7FFF3837270AE8A70022B7D7 /* FXBaseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3821270AE8A70022B7D7 /* FXBaseConstants.m */; };
+		7FFF3838270AE8A70022B7D7 /* FXUserDefaultKeyConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3822270AE8A70022B7D7 /* FXUserDefaultKeyConstants.h */; };
+		7FFF3839270AE8A70022B7D7 /* FXMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3823270AE8A70022B7D7 /* FXMacroDefine.h */; };
+		7FFF383A270AE8A70022B7D7 /* FXUserDefaultManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3824270AE8A70022B7D7 /* FXUserDefaultManager.h */; };
+		7FFF383B270AE8A70022B7D7 /* FXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3825270AE8A70022B7D7 /* FXUtil.m */; };
+		7FFF383C270AE8A70022B7D7 /* FXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3825270AE8A70022B7D7 /* FXUtil.m */; };
+		7FFF383D270AE8A70022B7D7 /* FXDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3826270AE8A70022B7D7 /* FXDeviceInfo.h */; };
+		7FFF383E270AE8A70022B7D7 /* FXGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3827270AE8A70022B7D7 /* FXGlobal.h */; };
+		7FFF383F270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3828270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m */; };
+		7FFF3840270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3828270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m */; };
+		7FFF3841270AE8A70022B7D7 /* FXBaseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3829270AE8A70022B7D7 /* FXBaseConstants.h */; };
+		7FFF3842270AE8A70022B7D7 /* FXUserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF382A270AE8A70022B7D7 /* FXUserDefaultManager.m */; };
+		7FFF3843270AE8A70022B7D7 /* FXUserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF382A270AE8A70022B7D7 /* FXUserDefaultManager.m */; };
+		7FFF389A270E08400022B7D7 /* FXEventConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF3898270E08400022B7D7 /* FXEventConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFF389B270E08400022B7D7 /* FXEventConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF3899270E08400022B7D7 /* FXEventConstants.m */; };
+		7FFF38A0270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF389D270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.h */; };
+		7FFF38A1270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF389E270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F24969C2700814F004B200F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2496882700814F004B200F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2496902700814F004B200F;
+			remoteInfo = FX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F2496912700814F004B200F /* FX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2496942700814F004B200F /* FX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FX.h; sourceTree = "<group>"; };
+		7F2496952700814F004B200F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F24969A2700814F004B200F /* FXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F24969F2700814F004B200F /* FXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXTests.m; sourceTree = "<group>"; };
+		7F2496A12700814F004B200F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2496AB270081E3004B200F /* FXSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXSDK.h; sourceTree = "<group>"; };
+		7F2496AC270081E3004B200F /* FXSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXSDK.m; sourceTree = "<group>"; };
+		7F2496D0270310F6004B200F /* FXDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDatabaseManager.h; sourceTree = "<group>"; };
+		7F2496D1270310F6004B200F /* FXEventDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXEventDB.m; sourceTree = "<group>"; };
+		7F2496D2270310F6004B200F /* FXSQLAdaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSQLAdaptor.m; sourceTree = "<group>"; };
+		7F2496D3270310F6004B200F /* FXWhereModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXWhereModel.m; sourceTree = "<group>"; };
+		7F2496DE270310F6004B200F /* FXDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDatabaseHelper.h; sourceTree = "<group>"; };
+		7F2496DF270310F6004B200F /* FXDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXDatabaseManager.m; sourceTree = "<group>"; };
+		7F2496E0270310F6004B200F /* FXEventDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXEventDB.h; sourceTree = "<group>"; };
+		7F2496E1270310F6004B200F /* FXSQLAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSQLAdaptor.h; sourceTree = "<group>"; };
+		7F2496E2270310F6004B200F /* FXWhereModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXWhereModel.h; sourceTree = "<group>"; };
+		7F2496FE27031464004B200F /* FXSDKFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7F2496FF27031464004B200F /* FXSDKFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMDatabase.h; sourceTree = "<group>"; };
+		7F24970027031464004B200F /* FXSDKFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKFMResultSet.m; sourceTree = "<group>"; };
+		7F24970127031464004B200F /* FXSDKFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMDB.h; sourceTree = "<group>"; };
+		7F24970227031464004B200F /* FXSDKFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKFMDatabasePool.m; sourceTree = "<group>"; };
+		7F24970327031464004B200F /* FXSDKFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMDatabaseQueue.h; sourceTree = "<group>"; };
+		7F24970427031464004B200F /* FXSDKFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKFMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7F24970527031465004B200F /* FXSDKFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMResultSet.h; sourceTree = "<group>"; };
+		7F24970627031465004B200F /* FXSDKFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKFMDatabase.m; sourceTree = "<group>"; };
+		7F24970727031465004B200F /* FXSDKFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKFMDatabaseQueue.m; sourceTree = "<group>"; };
+		7F24970827031465004B200F /* FXSDKFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKFMDatabasePool.h; sourceTree = "<group>"; };
+		7FF683BE271144E0006F6E09 /* FXAPIEndpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXAPIEndpoints.h; sourceTree = "<group>"; };
+		7FF683BF271144E0006F6E09 /* FXAPIEndpoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXAPIEndpoints.m; sourceTree = "<group>"; };
+		7FFF37FB270607390022B7D7 /* FXURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXURLRequest.m; sourceTree = "<group>"; };
+		7FFF37FC270607390022B7D7 /* FXURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXURL.m; sourceTree = "<group>"; };
+		7FFF37FD270607390022B7D7 /* FXHTTPNetworkTaskData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXHTTPNetworkTaskData.m; sourceTree = "<group>"; };
+		7FFF37FE270607390022B7D7 /* FXHTTPNetworkSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXHTTPNetworkSession.h; sourceTree = "<group>"; };
+		7FFF3800270607390022B7D7 /* FXURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXURLRequest.h; sourceTree = "<group>"; };
+		7FFF3801270607390022B7D7 /* FXHTTPNetworkTaskData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXHTTPNetworkTaskData.h; sourceTree = "<group>"; };
+		7FFF3802270607390022B7D7 /* FXURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXURL.h; sourceTree = "<group>"; };
+		7FFF3803270607390022B7D7 /* FXHTTPNetworkSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXHTTPNetworkSession.m; sourceTree = "<group>"; };
+		7FFF3819270AE8A70022B7D7 /* FXRequestParameterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXRequestParameterBuilder.h; sourceTree = "<group>"; };
+		7FFF381A270AE8A70022B7D7 /* FXRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXRequestManager.h; sourceTree = "<group>"; };
+		7FFF381B270AE8A70022B7D7 /* FXRequestParameterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXRequestParameterBuilder.m; sourceTree = "<group>"; };
+		7FFF381C270AE8A70022B7D7 /* FXRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXRequestManager.m; sourceTree = "<group>"; };
+		7FFF381E270AE8A70022B7D7 /* FXDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXDeviceInfo.m; sourceTree = "<group>"; };
+		7FFF381F270AE8A70022B7D7 /* FXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXUtil.h; sourceTree = "<group>"; };
+		7FFF3820270AE8A70022B7D7 /* FXGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXGlobal.m; sourceTree = "<group>"; };
+		7FFF3821270AE8A70022B7D7 /* FXBaseConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBaseConstants.m; sourceTree = "<group>"; };
+		7FFF3822270AE8A70022B7D7 /* FXUserDefaultKeyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXUserDefaultKeyConstants.h; sourceTree = "<group>"; };
+		7FFF3823270AE8A70022B7D7 /* FXMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXMacroDefine.h; sourceTree = "<group>"; };
+		7FFF3824270AE8A70022B7D7 /* FXUserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXUserDefaultManager.h; sourceTree = "<group>"; };
+		7FFF3825270AE8A70022B7D7 /* FXUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXUtil.m; sourceTree = "<group>"; };
+		7FFF3826270AE8A70022B7D7 /* FXDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDeviceInfo.h; sourceTree = "<group>"; };
+		7FFF3827270AE8A70022B7D7 /* FXGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXGlobal.h; sourceTree = "<group>"; };
+		7FFF3828270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXUserDefaultKeyConstants.m; sourceTree = "<group>"; };
+		7FFF3829270AE8A70022B7D7 /* FXBaseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBaseConstants.h; sourceTree = "<group>"; };
+		7FFF382A270AE8A70022B7D7 /* FXUserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXUserDefaultManager.m; sourceTree = "<group>"; };
+		7FFF3898270E08400022B7D7 /* FXEventConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXEventConstants.h; sourceTree = "<group>"; };
+		7FFF3899270E08400022B7D7 /* FXEventConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXEventConstants.m; sourceTree = "<group>"; };
+		7FFF389D270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSDKNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7FFF389E270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSDKNetworkReachabilityManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F24968E2700814F004B200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2496972700814F004B200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F24969B2700814F004B200F /* FX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2496872700814F004B200F = {
+			isa = PBXGroup;
+			children = (
+				7F2496932700814F004B200F /* FX */,
+				7F24969E2700814F004B200F /* FXTests */,
+				7F2496922700814F004B200F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2496922700814F004B200F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2496912700814F004B200F /* FX.framework */,
+				7F24969A2700814F004B200F /* FXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2496932700814F004B200F /* FX */ = {
+			isa = PBXGroup;
+			children = (
+				7F2496942700814F004B200F /* FX.h */,
+				7F2496AB270081E3004B200F /* FXSDK.h */,
+				7F2496AC270081E3004B200F /* FXSDK.m */,
+				7FFF3898270E08400022B7D7 /* FXEventConstants.h */,
+				7FFF3899270E08400022B7D7 /* FXEventConstants.m */,
+				7F2496952700814F004B200F /* Info.plist */,
+				7FFF381D270AE8A70022B7D7 /* Common */,
+				7F2496CF270310F6004B200F /* Database */,
+				7FFF37FA270607390022B7D7 /* Network */,
+				7FFF3818270AE8A70022B7D7 /* Request */,
+			);
+			path = FX;
+			sourceTree = "<group>";
+		};
+		7F24969E2700814F004B200F /* FXTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F24969F2700814F004B200F /* FXTests.m */,
+				7F2496A12700814F004B200F /* Info.plist */,
+			);
+			path = FXTests;
+			sourceTree = "<group>";
+		};
+		7F2496CF270310F6004B200F /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7F2496FD27031464004B200F /* FXFMDB */,
+				7F2496E0270310F6004B200F /* FXEventDB.h */,
+				7F2496D1270310F6004B200F /* FXEventDB.m */,
+				7F2496D0270310F6004B200F /* FXDatabaseManager.h */,
+				7F2496DF270310F6004B200F /* FXDatabaseManager.m */,
+				7F2496DE270310F6004B200F /* FXDatabaseHelper.h */,
+				7F2496E1270310F6004B200F /* FXSQLAdaptor.h */,
+				7F2496D2270310F6004B200F /* FXSQLAdaptor.m */,
+				7F2496E2270310F6004B200F /* FXWhereModel.h */,
+				7F2496D3270310F6004B200F /* FXWhereModel.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7F2496FD27031464004B200F /* FXFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				7F2496FF27031464004B200F /* FXSDKFMDatabase.h */,
+				7F24970627031465004B200F /* FXSDKFMDatabase.m */,
+				7F2496FE27031464004B200F /* FXSDKFMDatabaseAdditions.h */,
+				7F24970427031464004B200F /* FXSDKFMDatabaseAdditions.m */,
+				7F24970827031465004B200F /* FXSDKFMDatabasePool.h */,
+				7F24970227031464004B200F /* FXSDKFMDatabasePool.m */,
+				7F24970327031464004B200F /* FXSDKFMDatabaseQueue.h */,
+				7F24970727031465004B200F /* FXSDKFMDatabaseQueue.m */,
+				7F24970127031464004B200F /* FXSDKFMDB.h */,
+				7F24970527031465004B200F /* FXSDKFMResultSet.h */,
+				7F24970027031464004B200F /* FXSDKFMResultSet.m */,
+			);
+			path = FXFMDB;
+			sourceTree = "<group>";
+		};
+		7FFF37FA270607390022B7D7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF389D270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.h */,
+				7FFF389E270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.m */,
+				7FFF37FE270607390022B7D7 /* FXHTTPNetworkSession.h */,
+				7FFF3803270607390022B7D7 /* FXHTTPNetworkSession.m */,
+				7FFF3801270607390022B7D7 /* FXHTTPNetworkTaskData.h */,
+				7FFF37FD270607390022B7D7 /* FXHTTPNetworkTaskData.m */,
+				7FFF3802270607390022B7D7 /* FXURL.h */,
+				7FFF37FC270607390022B7D7 /* FXURL.m */,
+				7FFF3800270607390022B7D7 /* FXURLRequest.h */,
+				7FFF37FB270607390022B7D7 /* FXURLRequest.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7FFF3818270AE8A70022B7D7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF3819270AE8A70022B7D7 /* FXRequestParameterBuilder.h */,
+				7FFF381B270AE8A70022B7D7 /* FXRequestParameterBuilder.m */,
+				7FFF381A270AE8A70022B7D7 /* FXRequestManager.h */,
+				7FFF381C270AE8A70022B7D7 /* FXRequestManager.m */,
+				7FF683BE271144E0006F6E09 /* FXAPIEndpoints.h */,
+				7FF683BF271144E0006F6E09 /* FXAPIEndpoints.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		7FFF381D270AE8A70022B7D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF3829270AE8A70022B7D7 /* FXBaseConstants.h */,
+				7FFF3821270AE8A70022B7D7 /* FXBaseConstants.m */,
+				7FFF3826270AE8A70022B7D7 /* FXDeviceInfo.h */,
+				7FFF381E270AE8A70022B7D7 /* FXDeviceInfo.m */,
+				7FFF3827270AE8A70022B7D7 /* FXGlobal.h */,
+				7FFF3820270AE8A70022B7D7 /* FXGlobal.m */,
+				7FFF3823270AE8A70022B7D7 /* FXMacroDefine.h */,
+				7FFF3822270AE8A70022B7D7 /* FXUserDefaultKeyConstants.h */,
+				7FFF3828270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m */,
+				7FFF3824270AE8A70022B7D7 /* FXUserDefaultManager.h */,
+				7FFF382A270AE8A70022B7D7 /* FXUserDefaultManager.m */,
+				7FFF381F270AE8A70022B7D7 /* FXUtil.h */,
+				7FFF3825270AE8A70022B7D7 /* FXUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F24968C2700814F004B200F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFF3811270607390022B7D7 /* FXHTTPNetworkTaskData.h in Headers */,
+				7F2496FA270310F6004B200F /* FXEventDB.h in Headers */,
+				7F2496FC270310F6004B200F /* FXWhereModel.h in Headers */,
+				7FFF3810270607390022B7D7 /* FXURLRequest.h in Headers */,
+				7FFF389A270E08400022B7D7 /* FXEventConstants.h in Headers */,
+				7F24970D27031465004B200F /* FXSDKFMDB.h in Headers */,
+				7FFF380E270607390022B7D7 /* FXHTTPNetworkSession.h in Headers */,
+				7FFF383D270AE8A70022B7D7 /* FXDeviceInfo.h in Headers */,
+				7FFF3838270AE8A70022B7D7 /* FXUserDefaultKeyConstants.h in Headers */,
+				7FF683C0271144E0006F6E09 /* FXAPIEndpoints.h in Headers */,
+				7FFF382C270AE8A70022B7D7 /* FXRequestManager.h in Headers */,
+				7F2496A22700814F004B200F /* FX.h in Headers */,
+				7FFF382B270AE8A70022B7D7 /* FXRequestParameterBuilder.h in Headers */,
+				7FFF383A270AE8A70022B7D7 /* FXUserDefaultManager.h in Headers */,
+				7F2496AD270081E3004B200F /* FXSDK.h in Headers */,
+				7FFF3833270AE8A70022B7D7 /* FXUtil.h in Headers */,
+				7F2496FB270310F6004B200F /* FXSQLAdaptor.h in Headers */,
+				7FFF38A0270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.h in Headers */,
+				7F24970927031465004B200F /* FXSDKFMDatabaseAdditions.h in Headers */,
+				7F24971827031465004B200F /* FXSDKFMDatabasePool.h in Headers */,
+				7F24970A27031465004B200F /* FXSDKFMDatabase.h in Headers */,
+				7F2496F7270310F6004B200F /* FXDatabaseHelper.h in Headers */,
+				7F2496E3270310F6004B200F /* FXDatabaseManager.h in Headers */,
+				7F24971327031465004B200F /* FXSDKFMResultSet.h in Headers */,
+				7FFF3841270AE8A70022B7D7 /* FXBaseConstants.h in Headers */,
+				7FFF383E270AE8A70022B7D7 /* FXGlobal.h in Headers */,
+				7F24971027031465004B200F /* FXSDKFMDatabaseQueue.h in Headers */,
+				7FFF3839270AE8A70022B7D7 /* FXMacroDefine.h in Headers */,
+				7FFF3812270607390022B7D7 /* FXURL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F2496902700814F004B200F /* FX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2496A52700814F004B200F /* Build configuration list for PBXNativeTarget "FX" */;
+			buildPhases = (
+				7F24968C2700814F004B200F /* Headers */,
+				7F24968D2700814F004B200F /* Sources */,
+				7F24968E2700814F004B200F /* Frameworks */,
+				7F24968F2700814F004B200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FX;
+			productName = FX;
+			productReference = 7F2496912700814F004B200F /* FX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F2496992700814F004B200F /* FXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2496A82700814F004B200F /* Build configuration list for PBXNativeTarget "FXTests" */;
+			buildPhases = (
+				7F2496962700814F004B200F /* Sources */,
+				7F2496972700814F004B200F /* Frameworks */,
+				7F2496982700814F004B200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F24969D2700814F004B200F /* PBXTargetDependency */,
+			);
+			name = FXTests;
+			productName = FXTests;
+			productReference = 7F24969A2700814F004B200F /* FXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2496882700814F004B200F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7F2496902700814F004B200F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7F2496992700814F004B200F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7F24968B2700814F004B200F /* Build configuration list for PBXProject "FX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2496872700814F004B200F;
+			productRefGroup = 7F2496922700814F004B200F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2496902700814F004B200F /* FX */,
+				7F2496992700814F004B200F /* FXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F24968F2700814F004B200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2496982700814F004B200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F24968D2700814F004B200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2496E4270310F6004B200F /* FXEventDB.m in Sources */,
+				7FF683C1271144E0006F6E09 /* FXAPIEndpoints.m in Sources */,
+				7F24970B27031465004B200F /* FXSDKFMResultSet.m in Sources */,
+				7F24971427031465004B200F /* FXSDKFMDatabase.m in Sources */,
+				7FFF380A270607390022B7D7 /* FXURL.m in Sources */,
+				7FFF3813270607390022B7D7 /* FXHTTPNetworkSession.m in Sources */,
+				7FFF380C270607390022B7D7 /* FXHTTPNetworkTaskData.m in Sources */,
+				7FFF3842270AE8A70022B7D7 /* FXUserDefaultManager.m in Sources */,
+				7FFF3836270AE8A70022B7D7 /* FXBaseConstants.m in Sources */,
+				7F24970E27031465004B200F /* FXSDKFMDatabasePool.m in Sources */,
+				7F2496F8270310F6004B200F /* FXDatabaseManager.m in Sources */,
+				7FFF383F270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m in Sources */,
+				7F2496E6270310F6004B200F /* FXSQLAdaptor.m in Sources */,
+				7FFF389B270E08400022B7D7 /* FXEventConstants.m in Sources */,
+				7FFF38A1270EA0550022B7D7 /* FXSDKNetworkReachabilityManager.m in Sources */,
+				7F24971127031465004B200F /* FXSDKFMDatabaseAdditions.m in Sources */,
+				7FFF3808270607390022B7D7 /* FXURLRequest.m in Sources */,
+				7FFF382D270AE8A70022B7D7 /* FXRequestParameterBuilder.m in Sources */,
+				7F24971627031465004B200F /* FXSDKFMDatabaseQueue.m in Sources */,
+				7FFF3831270AE8A70022B7D7 /* FXDeviceInfo.m in Sources */,
+				7FFF383B270AE8A70022B7D7 /* FXUtil.m in Sources */,
+				7FFF3834270AE8A70022B7D7 /* FXGlobal.m in Sources */,
+				7F2496AE270081E3004B200F /* FXSDK.m in Sources */,
+				7F2496E8270310F6004B200F /* FXWhereModel.m in Sources */,
+				7FFF382F270AE8A70022B7D7 /* FXRequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2496962700814F004B200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2496E5270310F6004B200F /* FXEventDB.m in Sources */,
+				7F24970C27031465004B200F /* FXSDKFMResultSet.m in Sources */,
+				7F24971527031465004B200F /* FXSDKFMDatabase.m in Sources */,
+				7FFF380B270607390022B7D7 /* FXURL.m in Sources */,
+				7FFF3814270607390022B7D7 /* FXHTTPNetworkSession.m in Sources */,
+				7FFF380D270607390022B7D7 /* FXHTTPNetworkTaskData.m in Sources */,
+				7FFF3843270AE8A70022B7D7 /* FXUserDefaultManager.m in Sources */,
+				7FFF3837270AE8A70022B7D7 /* FXBaseConstants.m in Sources */,
+				7F24970F27031465004B200F /* FXSDKFMDatabasePool.m in Sources */,
+				7F2496F9270310F6004B200F /* FXDatabaseManager.m in Sources */,
+				7FFF3840270AE8A70022B7D7 /* FXUserDefaultKeyConstants.m in Sources */,
+				7F2496E7270310F6004B200F /* FXSQLAdaptor.m in Sources */,
+				7F24971227031465004B200F /* FXSDKFMDatabaseAdditions.m in Sources */,
+				7FFF3809270607390022B7D7 /* FXURLRequest.m in Sources */,
+				7FFF382E270AE8A70022B7D7 /* FXRequestParameterBuilder.m in Sources */,
+				7F24971727031465004B200F /* FXSDKFMDatabaseQueue.m in Sources */,
+				7FFF3832270AE8A70022B7D7 /* FXDeviceInfo.m in Sources */,
+				7FFF383C270AE8A70022B7D7 /* FXUtil.m in Sources */,
+				7FFF3835270AE8A70022B7D7 /* FXGlobal.m in Sources */,
+				7F2496A02700814F004B200F /* FXTests.m in Sources */,
+				7F2496E9270310F6004B200F /* FXWhereModel.m in Sources */,
+				7FFF3830270AE8A70022B7D7 /* FXRequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F24969D2700814F004B200F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2496902700814F004B200F /* FX */;
+			targetProxy = 7F24969C2700814F004B200F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F2496A32700814F004B200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F2496A42700814F004B200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F2496A62700814F004B200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LKE4QN44Q8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxmvp.com.FX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2496A72700814F004B200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LKE4QN44Q8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxmvp.com.FX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F2496A92700814F004B200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKE4QN44Q8;
+				INFOPLIST_FILE = FXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxmvp.com.FXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2496AA2700814F004B200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKE4QN44Q8;
+				INFOPLIST_FILE = FXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxmvp.com.FXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F24968B2700814F004B200F /* Build configuration list for PBXProject "FX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2496A32700814F004B200F /* Debug */,
+				7F2496A42700814F004B200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2496A52700814F004B200F /* Build configuration list for PBXNativeTarget "FX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2496A62700814F004B200F /* Debug */,
+				7F2496A72700814F004B200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2496A82700814F004B200F /* Build configuration list for PBXNativeTarget "FXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2496A92700814F004B200F /* Debug */,
+				7F2496AA2700814F004B200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2496882700814F004B200F /* Project object */;
+}
