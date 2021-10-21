@@ -17,8 +17,7 @@ To file an issue with our team, email [fx-support@mintegral.com](mailto:fx-suppo
 The current version of the SDK is 1.0.0
 
 ## Static Framework
-- **[FXSDK Framework.zip](https://fx-support.gitbook.io/mtg-fx/)**
-
+- **[FXSDK  FX.framework.zip](https://github.com/MTGfxplatform/FXSDK-iOS/files/7387964/FX.framework.zip)**
 
 ## Requirements
 
